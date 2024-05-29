@@ -1,0 +1,48 @@
+.srch-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.srch-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #4d4d4d;
+  text-decoration: inherit;
+} 
+
+.srch-searchbar {
+  margin-top: 40px;
+}
+
+.srch-autocomplete {
+  background-color: rgb(255, 255, 255);
+  width: 500px !important;
+  border-radius: 200px !important;
+}
+
+.srch-btn {
+    background-color: #fb9d5d;
+    height: 40px;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #ffffff;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .srch-btn:hover {
+    background-color: #e88a4a;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+  }
+  
+
+.srch-book-list {
+    margin-top: 40px;
+}
