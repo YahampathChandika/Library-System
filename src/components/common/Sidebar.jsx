@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import "../../assets/css/Sidebar.css";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/images/logo.jpg";
+import logo from "../../assets/images/logo.png";
 
 function SidebarComp() {
   const [collapsed, setCollapsed] = useState(false);
